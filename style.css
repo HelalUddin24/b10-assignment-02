@@ -1,0 +1,190 @@
+/* google fonts */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+@font-face {
+    font-family: miama;
+    src: url(./fonts/Miama.ttf);
+}
+*{
+    margin: 0 auto;
+}
+header{
+    height: 715px; 
+    background-image: linear-gradient(to bottom, #373737, #2b2b2b, #201f20, #151414, #040303);
+
+}
+
+/* header nav bar style */
+
+.header-area{
+    width: 80%;
+    padding-top: 3.5rem;
+}
+.header-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-name{
+    margin-left: 0px;
+    width: 50%;
+}
+.brand-name h2{
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-style: italic;
+    color: #E6533C;
+    line-height: 120%;
+}
+.nav-bar{
+    margin-right: 0px ;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 135px;
+}
+.nav-bar> .fa-bars{
+    font-size: 3rem;
+    color: white;
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    gap: 0;
+    border: 1px solid rgba(255, 255, 255, 10%);
+    padding: 2px 0px;
+    border-radius: 39px;
+    width: 70%;
+    margin-right: 0px;
+}
+.nav-bar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin:0px;
+    border-radius: 46px;
+    padding: 10px 22px;
+
+}
+.home{
+    padding: 10px 22px;
+    background-color: #E6533C;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover{
+    border-radius: 39px;
+}
+
+/* header banner area style */
+
+.header-banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-heading{
+    font-size: 5rem;
+    color: white;
+    font-weight: 900;
+    line-height: 120%;
+    position: relative;
+}
+.banner-heading> .shape{
+    font-family: miama;
+    font-size: 11rem;
+    line-height: 120%;
+    font-weight: normal;
+    position: absolute;
+    top: 50px;
+}
+.stay{
+    margin-left: 257px;
+}
+.banner-description{
+    margin: 28px 0px;
+    color: rgba(255, 255, 255, 50%);
+}
+
+.banner-button1{
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 42px;
+    border: none;
+}
+
+.banner-button2{
+    width: 224px;
+    height: 54px;
+    background-color: #151414;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 42px;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+.banner-image-area{
+    display: flex;
+    margin-top: 1.85rem;
+    position: relative;
+}
+.video-tutorial-card{
+    position: absolute;
+    left: -100px;
+    bottom: 70px;
+    width: 206px;
+    height: 96px;
+    background-color: rgba(48, 48, 48, 74%);
+    border: .5px solid rgba(255, 255, 255, 10%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.fa-circle{
+    font-size: 2rem;
+    color: #E6533C;
+
+}
+.video-info{
+    color: white;
+    margin-left: 0px;
+    text-align: center;
+}
+.video-info h3{
+    font-size: 2rem;
+}
+
+.workout-video-card{
+    position: absolute;
+    right: -80px;
+    top: 125px;
+    width: 195px;
+    height: 98px;
+    background-color: rgba(48, 48, 48, 74%);
+    border: .5px solid rgba(255, 255, 255, 10%);
+    border-radius: 12px;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+/* .banner-image img{
+    width: 350px;
+    height: 580px;
+} */
