@@ -71,13 +71,11 @@ header{
     font-size: 1.2rem;
     margin:0px;
     border-radius: 46px;
-    padding: 10px 22px;
+    padding: 10px 24px;
 
 }
 .home{
-    padding: 10px 22px;
     background-color: #E6533C;
-
 }
 .nav-bar ul li a{
     text-decoration: none;
@@ -93,6 +91,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-banner-info{
+    max-width: 50%;
+    margin-left: 0px;
+    
 }
 .banner-heading{
     font-size: 5rem;
@@ -143,6 +147,8 @@ header{
     display: flex;
     margin-top: 1.85rem;
     position: relative;
+    max-width: 50%;
+    margin-right: 0px;
 }
 .video-tutorial-card{
     position: absolute;
@@ -182,6 +188,10 @@ header{
     text-align: center;
     align-content: center;
     color: white;
+}
+.workout-video-card h1{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* .banner-image img{
