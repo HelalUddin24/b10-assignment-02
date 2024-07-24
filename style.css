@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: miama;
-    src: url(./fonts/Miama.ttf);
+    src: url(./fonts/Miama.ttf), url(./fonts/Miama.otf);
 }
 
 
