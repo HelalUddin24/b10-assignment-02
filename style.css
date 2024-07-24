@@ -261,9 +261,10 @@ header{
         display: none;
     }
     .nav-bar> .fa-bars{
-        font-size: 3rem;
-        color: red;
+        font-size: 1.5rem;
+        color: white;
         display: block;
+        margin-right: 0px;
     }
     
     /* header banner area style */
@@ -437,9 +438,10 @@ header{
         display: none;
     }
     .nav-bar> .fa-bars{
-        font-size: 3rem;
-        color: red;
+        font-size: 1.5rem;
+        color: white;
         display: block;
+        margin-right: 0px;
     }
     
     /* header banner area style */
@@ -603,9 +605,10 @@ header{
         display: none;
     }
     .nav-bar> .fa-bars{
-        font-size: 3rem;
-        color: red;
+        font-size: 1.5rem;
+        color: white;
         display: block;
+        margin-right: 0px;
     }
     
     /* header banner area style */
@@ -2182,6 +2185,23 @@ margin-top: 20px;
     border: none;
 }
 
+.angel{
+    position: absolute;
+    color: white;
+    opacity: 40%;
+}
+.fa-angle-down{
+    position: absolute;
+    top: 60px;
+    left: 290px;
+}
+
+.a{
+    position: absolute;
+    top: 110px;
+    left: 290px;
+}
+
                 /*BMI calculator section media query */
 
 /* max-width:320px */
@@ -2768,7 +2788,7 @@ hr{
     line-height: 20px;
 }
 .column-nav{
-    width: 30%;
+    width: 60%;
     margin-left: 100px;
 }
 .column-heading{
