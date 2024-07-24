@@ -8,9 +8,20 @@
   font-variation-settings:
     "slnt" 0;
 }
+
+
 @font-face {
-    font-family: miama;
-    src: url(./fonts/Miama.ttf), url(./fonts/Miama.otf);
+    font-family: 'Miama Regular';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Miama Regular'), url('./fonts/Miama-Regular.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Miama';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Miama'), url('./fonts/Miama.woff') format('woff');
 }
 
 
@@ -1286,7 +1297,6 @@ main{
 
 .run-container{
     max-width: 80%;
-    height: 20%;
     border: 1px solid #151414;
     padding: 50px 0px;
     margin: 50px auto;
@@ -1295,8 +1305,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .run-info{
@@ -1304,14 +1312,15 @@ main{
     margin-left: 50px;
 }
 .run-title{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
-    line-height: 50px;
+    line-height: 120%;
 }
 .run-description{
     color: #505050;
-    margin: 20px 0px;
+    margin: 40px 0px;
     padding-right: 230px;
+    line-height: 24px;
 }
 .run-image{
    width: 550px ;
@@ -1340,7 +1349,6 @@ main{
     }
     .run-container{
         width: 90%;
-        height: 20%;
         padding: 15px;
         margin: 0px auto;
         background-color: #373737;
@@ -1357,7 +1365,7 @@ main{
     .run-title{
         font-size: 2rem;
         font-weight: 900;
-        line-height: 50px;
+        line-height: 120%;
     }
     .run-description{
         color: #585858;
@@ -1394,7 +1402,6 @@ main{
     }
     .run-container{
         width: 90%;
-        height: 20%;
         padding: 30px;
         margin: 0px auto;
         background-color: #373737;
@@ -1446,7 +1453,6 @@ main{
     }
     .run-container{
         width: 90%;
-        height: 20%;
         padding: 30px;
         margin: 0px auto;
         background-color: #373737;
@@ -1463,7 +1469,7 @@ main{
     .run-title{
         font-size: 2.5rem;
         font-weight: 900;
-        line-height: 50px;
+        line-height: 120%;
     }
     .run-description{
         color: #585858;
@@ -1499,7 +1505,6 @@ main{
     
     .run-container{
         max-width: 90%;
-        height: 30%;
         border: 1px solid #151414;
         padding: 50px;
         margin: 50px;
@@ -1518,7 +1523,7 @@ main{
     .run-title{
         font-size: 2.5rem;
         font-weight: 900;
-        line-height: 50px;
+        line-height: 120%;
     }
     .run-description{
         color: #505050;
@@ -1555,7 +1560,6 @@ main{
     
     .run-container{
         max-width: 90%;
-        height: 20%;
         border: 1px solid #151414;
         padding: 30px;
         margin: 50px auto;
@@ -1574,7 +1578,7 @@ main{
 
     .run-description{
         color: #505050;
-        margin: 40px 0px;
+        margin: 20px 0px;
         padding-right: 60px;
     }
 
@@ -2129,14 +2133,20 @@ table td{
     max-width: 80%;
     display: flex;
     justify-content: space-between;
+    gap: 20%;
 }
 
 
 .bmi-chart{
     margin-left: 0px;
+    width: 30%;
 }
 .calculator-area{
     margin-right: 0px;
+    width: 50%;
+}
+.bmi-table{
+    margin-left: 0px;
 }
 
 .bmi-calculator-heading{
@@ -2970,7 +2980,7 @@ hr{
     }
 
     .column-nav{
-        width: 40%;
+        width: 60%;
         margin-left: 0px;
     }
     .column-nav>ul li{
