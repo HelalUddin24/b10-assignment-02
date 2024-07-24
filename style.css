@@ -1617,7 +1617,85 @@ main{
     display: grid;
     grid-template-columns: 25% auto  25%;
 }
-.ex-1, .ex-2, .ex-3, .ex-4, .ex-5{
+
+.ex-1{
+    background-image: url(./images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.ex-2{
+    background-image: url(./images/exercise2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ex-3{
+    background-image: url(./images/exercise3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ex-4{
+    background-image: url(./images/exercise4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ex-5{
+    background-image: url(./images/exercise5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ex-6{
+    background-image: url(./images/exercise6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-1{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+    opacity: 50%;
+}
+
+.bg-2{
+    width: 100%;
+    height: 250px;
+    background-color: red;
+    opacity: 30%;
+}
+
+.bg-3{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 50%;
+}
+.bg-4{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 50%;
+}
+
+.bg-5{
+    width: 100%;
+    height: 250px;
+    background-color: yellowgreen;
+    opacity: 30%;
+}
+
+.bg-6{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+    opacity: 30%;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6{
     width: 100%;
     height: 250px;
 }
@@ -1626,10 +1704,10 @@ main{
     display: grid;
     grid-template-columns: 45% 25% auto;
 }
-.trainings-image-container img{
+/* .trainings-image-container img{
     width: 100%;
     height: 250px;
-} 
+}  */
 
             /* training section media query */
 
@@ -1661,7 +1739,51 @@ main{
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5{
+
+    .bg-1{
+        width: 100%;
+        height: 140px;
+        background-color: green;
+        opacity: 50%;
+    }
+    
+    .bg-2{
+        width: 100%;
+        height: 140px;
+        background-color: red;
+        opacity: 30%;
+    }
+    
+    .bg-3{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    .bg-4{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    
+    .bg-5{
+        width: 100%;
+        height: 140px;
+        background-color: yellowgreen;
+        opacity: 30%;
+    }
+    
+    .bg-6{
+        width: 100%;
+        height: 140px;
+        background-color: blue;
+        opacity: 30%;
+    }
+
+    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6{
         width: 100%;
         height: 140px;
     }
@@ -1708,7 +1830,51 @@ main{
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5{
+
+    .bg-1{
+        width: 100%;
+        height: 160px;
+        background-color: green;
+        opacity: 50%;
+    }
+    
+    .bg-2{
+        width: 100%;
+        height: 160px;
+        background-color: red;
+        opacity: 30%;
+    }
+    
+    .bg-3{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    .bg-4{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    
+    .bg-5{
+        width: 100%;
+        height: 160px;
+        background-color: yellowgreen;
+        opacity: 30%;
+    }
+    
+    .bg-6{
+        width: 100%;
+        height: 160px;
+        background-color: blue;
+        opacity: 30%;
+    }
+
+    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6{
         width: 100%;
         height: 160px;
     }
@@ -1754,7 +1920,51 @@ main{
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5{
+
+    .bg-1{
+        width: 100%;
+        height: 160px;
+        background-color: green;
+        opacity: 50%;
+    }
+    
+    .bg-2{
+        width: 100%;
+        height: 160px;
+        background-color: red;
+        opacity: 30%;
+    }
+    
+    .bg-3{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    .bg-4{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    
+    .bg-5{
+        width: 100%;
+        height: 160px;
+        background-color: yellowgreen;
+        opacity: 30%;
+    }
+    
+    .bg-6{
+        width: 100%;
+        height: 160px;
+        background-color: blue;
+        opacity: 30%;
+    }
+
+    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6{
         width: 100%;
         height: 160px;
     }
@@ -1800,9 +2010,53 @@ main{
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5{
+
+    .bg-1{
         width: 100%;
-        height: 160px;
+        height: 190px;
+        background-color: green;
+        opacity: 50%;
+    }
+    
+    .bg-2{
+        width: 100%;
+        height: 190px;
+        background-color: red;
+        opacity: 30%;
+    }
+    
+    .bg-3{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    .bg-4{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 50%;
+        display: none;
+    }
+    
+    .bg-5{
+        width: 100%;
+        height: 190px;
+        background-color: yellowgreen;
+        opacity: 30%;
+    }
+    
+    .bg-6{
+        width: 100%;
+        height: 190px;
+        background-color: blue;
+        opacity: 30%;
+    }
+
+    .ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6{
+        width: 100%;
+        height: 190px;
     }
     
     .second-column{
@@ -1949,7 +2203,6 @@ margin-top: 20px;
     .bmi-chart{
         margin-left: 0px;
         width: 100%;
-        border: 1px solid red;
     }
     .chart-heading, .calculator-heading{
         font-size: 1.5rem;
@@ -1957,7 +2210,6 @@ margin-top: 20px;
     .calculator-area{
         margin-left: 0px;
         width: 100%;
-        border: 1px solid black;
     }
     .bmi-calculator{
         max-width: 90%;
