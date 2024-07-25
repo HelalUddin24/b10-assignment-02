@@ -2193,13 +2193,13 @@ margin-top: 20px;
 .fa-angle-down{
     position: absolute;
     top: 60px;
-    left: 290px;
+    left: 605px;
 }
 
 .a{
     position: absolute;
     top: 110px;
-    left: 290px;
+    left: 605px;
 }
 
                 /*BMI calculator section media query */
@@ -2260,6 +2260,23 @@ margin-top: 20px;
     margin-top: 20px;
     }
 
+    .angel{
+        position: absolute;
+        color: white;
+        opacity: 40%;
+    }
+    .fa-angle-down{
+        position: absolute;
+        top: 60px;
+        left: 260px;
+    }
+    
+    .a{
+        position: absolute;
+        top: 110px;
+        left: 260px;
+    }
+
 }
 
 /* min-width: 321px to max-width:425px */
@@ -2312,6 +2329,23 @@ margin-top: 20px;
     
     .calculator{
     margin-top: 20px;
+    }
+
+    .angel{
+        position: absolute;
+        color: white;
+        opacity: 40%;
+    }
+    .fa-angle-down{
+        position: absolute;
+        top: 60px;
+        left: 350px;
+    }
+    
+    .a{
+        position: absolute;
+        top: 110px;
+        left: 350px;
     }
 
 }
@@ -2392,6 +2426,23 @@ margin-top: 20px;
         border-radius:8px ;
         background-color: #373737;
         border: none;
+    }
+
+    .angel{
+        position: absolute;
+        color: white;
+        opacity: 40%;
+    }
+    .fa-angle-down{
+        position: absolute;
+        top: 75px;
+        left: 480px;
+    }
+    
+    .a{
+        position: absolute;
+        top: 135px;
+        left: 480px;
     }
 
 }
@@ -2477,6 +2528,23 @@ margin-top: 20px;
         margin-left: 0px;
     }
 
+    .angel{
+        position: absolute;
+        color: white;
+        opacity: 40%;
+    }
+    .fa-angle-down{
+        position: absolute;
+        top: 75px;
+        left: 660px;
+    }
+    
+    .a{
+        position: absolute;
+        top: 135px;
+        left: 660px;
+    }
+
 }
 
 /* min-width: 992px to max-width: 1024px */
@@ -2524,6 +2592,23 @@ margin-top: 20px;
 
     .br{
         display: none;
+    }
+
+    .angel{
+        position: absolute;
+        color: white;
+        opacity: 40%;
+    }
+    .fa-angle-down{
+        position: absolute;
+        top: 65px;
+        left: 320px;
+    }
+    
+    .a{
+        position: absolute;
+        top: 115px;
+        left: 320px;
     }
     
 }
@@ -2583,6 +2668,313 @@ margin-top: 20px;
 .meal a{
     text-decoration: none;
 }
+
+/*                  weight loss and meal plan section media query */
+
+/* max-width: 320px */
+
+@media screen and (max-width: 320px) {
+    
+    .weight-loss-container{
+        width: 90%;
+    }
+    
+    .weight-loss-info{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: -40px;
+    }
+    
+    .weight-loss-heading{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .weight-loss-description{
+        color: #585858;
+        margin: 20px 0px;
+        line-height: 22px;
+    }
+    
+    
+    .meal-plans{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    
+    .meal{
+        width: 95%;
+        height: 460px;
+        border-radius: 12px;
+        border: 5px solid #646060;
+        background-color: #202020;
+    }
+    .meal-title{
+        color: white;
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+    
+    .meal-prescriber{
+        padding-left: 10px;
+        color: #646060;
+    }
+    .meal img{
+        width: 100%;
+        height: 300px;
+        border-radius:;
+    }
+    .meal a{
+        text-decoration: none;
+    }
+}
+
+/* min-width: 321px to max-width: 320px */
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+    
+    .weight-loss-container{
+        width: 90%;
+    }
+    
+    .weight-loss-info{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: -40px;
+    }
+    
+    .weight-loss-heading{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .weight-loss-description{
+        color: #585858;
+        margin: 20px 0px;
+        line-height: 22px;
+    }
+    
+    
+    .meal-plans{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    
+    .meal{
+        width: 95%;
+        height: 450px;
+        border-radius: 12px;
+        border: 5px solid #646060;
+        background-color: #202020;
+    }
+    .meal-title{
+        color: white;
+        padding: 10px;
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    
+    .meal-prescriber{
+        padding-left: 10px;
+        color: #646060;
+    }
+    .meal img{
+        width: 100%;
+        height: 300px;
+        border-radius:;
+    }
+    .meal a{
+        text-decoration: none;
+    }
+}
+
+/* min-width: 426px to max-width: 575px */
+
+@media screen and (min-width: 426px) and (max-width: 575px) {
+    
+    .weight-loss-container{
+        width: 95%;
+    }
+    
+    .weight-loss-info{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: -40px;
+    }
+    
+    .weight-loss-heading{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .weight-loss-description{
+        color: #585858;
+        margin: 20px 0px;
+        line-height: 22px;
+    }
+    
+    
+    .meal-plans{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .meal{
+        width: 98%;
+        height: 480px;
+        border-radius: 12px;
+        border: 5px solid #646060;
+        background-color: #202020;
+    }
+    .meal-title{
+        color: white;
+        padding: 10px;
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    
+    .meal-prescriber{
+        padding-left: 10px;
+        color: #646060;
+    }
+    .meal img{
+        width: 100%;
+        height: 300px;
+        border-radius:;
+    }
+    .meal a{
+        text-decoration: none;
+    }
+}
+
+/* min-width: 576px to max-width: 768px */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+    .weight-loss-container{
+        width: 95%;
+    }
+    
+    .weight-loss-info{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: -40px;
+    }
+    
+    .weight-loss-heading{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .weight-loss-description{
+        color: #585858;
+        margin: 20px 0px;
+        line-height: 22px;
+    }
+    
+    
+    .meal-plans{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .meal{
+        width: 98%;
+        height: 460px;
+        border-radius: 12px;
+        border: 5px solid #646060;
+        background-color: #202020;
+    }
+    .meal-title{
+        color: white;
+        padding: 10px;
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    
+    .meal-prescriber{
+        padding-left: 10px;
+        color: #646060;
+    }
+    .meal img{
+        width: 100%;
+        height: 300px;
+        border-radius:;
+    }
+    .meal a{
+        text-decoration: none;
+    }
+}
+
+/* min-width: 992px to max-width: 1024px */
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    
+    .weight-loss-container{
+        width: 95%;
+    }
+    
+    .weight-loss-info{
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: -40px;
+    }
+    
+    .weight-loss-heading{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .weight-loss-description{
+        color: #585858;
+        margin: 20px 0px;
+        line-height: 22px;
+    }
+    
+    
+    .meal-plans{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    
+    .meal{
+        width: 98%;
+        height: 480px;
+        border-radius: 12px;
+        border: 5px solid #646060;
+        background-color: #202020;
+    }
+    .meal-title{
+        color: white;
+        padding: 10px;
+        font-size: 1.4rem;
+        line-height: 30px;
+    }
+    
+    .meal-prescriber{
+        padding-left: 10px;
+        color: #646060;
+    }
+    .meal img{
+        width: 100%;
+        height: 300px;
+        border-radius:;
+    }
+    .meal a{
+        text-decoration: none;
+    }
+}
+
 
 /* team section style */
 
