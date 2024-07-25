@@ -2580,6 +2580,9 @@ margin-top: 20px;
     height: 300px;
     border-radius:;
 }
+.meal a{
+    text-decoration: none;
+}
 
 /* team section style */
 
