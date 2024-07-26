@@ -2675,7 +2675,7 @@ margin-top: 20px;
 .meal img{
     width: 100%;
     height: 300px;
-    border-radius:;
+    border-radius: 7px 7px 0px 0px;
 }
 .meal a{
     text-decoration: none;
