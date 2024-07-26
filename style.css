@@ -400,7 +400,7 @@ header{
 
 /* min-width: 321px and max-width: 425px */
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media screen and (min-width: 321px) and (max-width: 430px) {
     
     header{
         /* height: 1400px; */
@@ -2786,7 +2786,7 @@ margin-top: 20px;
     .meal-title{
         color: white;
         padding: 10px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 30px;
     }
     
